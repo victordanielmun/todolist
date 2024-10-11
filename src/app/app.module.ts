@@ -20,8 +20,4 @@ import { AddTodoComponent } from './add-todo/add-todo.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-<<<<<<< HEAD
 export class AppModule { }
-=======
-export class AppModule { }
->>>>>>> feature-componentes
