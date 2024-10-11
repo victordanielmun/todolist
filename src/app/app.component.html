@@ -1,5 +1,11 @@
-<nav class="navbar navbar-dark bg-primary">
-  <h3>TODO LIST APP </h3>
-  <a href="/" class="navbar-brand">todos</a>
-  <a href="/" class="navbar-brand">add todo</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="/">Todo App</a>
+  <div class="navbar-nav">
+    <a class="nav-item nav-link" routerLink="/todo-list">Todo List</a>
+    <a class="nav-item nav-link" routerLink="/add-todo">Añadir Todo</a>
+  </div>
 </nav>
+
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>
